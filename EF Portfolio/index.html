@@ -5,17 +5,29 @@
    </head>
    <body>
      <!--nav-header-->
-     <header class="navbar">
+     <header class="nav-bar">
        <div class="logo">
        <a href="index.html">
          <!--logo-->
          <img src="images/ef-logo.svg" alt="ef-logo">
        </a>
        </div>
-       <div class="mobile-menu">
+       <div class="mobile-nav">
          <img src="images/nav-menu.png">
        </div>
-         <a href=mobile>
+       <div class="desktop-nav">
+         <ul>
+           <li>
+             <a href="index.html">projects</a>
+           </li>
+           <li>
+             <a href="about.html">about</a>
+           </li>
+           <li>
+             <a href="ef.resume.pdf">resume</a>
+           </li>
+         </ul>
+       </div>
        </header>
        <!--hero-->
        <section class="hero">
@@ -32,6 +44,9 @@
              <article class="project-info">
                <h2>Companion-App</h2>
                  <p>A comprehensive pet health and wellness tracking app for dogs, cats, and more.</p>
+                 <button class="button" onclick="companion.html">
+                   <a>View Case Study</a>
+                 </button>
                </article>
                <article class="project-image">
                  <a href="companion.html">
@@ -44,6 +59,9 @@
                 <article class="project-info">
                   <h2>Capstone-Project</h2>
                     <p>Coming soon! Stay in touch for the latest updates, or contact me for a preview of what I'm currently working on.</p>
+                    <button class="button" onclick="capstone.html">
+                      <a>View Case Study</a>
+                    </button>
                   </article>
                   <article class="project-image">
                     <a href="capstone.html">
@@ -56,6 +74,9 @@
                  <article class="project-info">
                    <h2>Cloud-Kitchen</h2>
                      <p>An online platform for creating, collaborating, and exploring all types of food content from all over the world.</p>
+                     <button class="button" onclick="cloud-kitchen.html">
+                       <a>View Case Study</a>
+                     </button>
                    </article>
                    <article class="project-image">
                      <a href="cloud-kitchen.html">
@@ -64,6 +85,8 @@
                      </article>
                  </section>
            </section>
+           <button onclick="topfunction()" title="Go to Top">
+           </button>
            <!--Footer-->
      <footer style="background-color: #ffffff">
        <h1>Interested in working together?</h1>
@@ -85,5 +108,6 @@
                        </a>
                        </li>
                </ul>
+      </footer>         
    </body>
  </html>
