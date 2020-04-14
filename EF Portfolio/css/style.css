@@ -1,2 +1,18 @@
 body {
- background-image: url("images/desktop-background.svg");
+ background-image: url("../Images/desktop-background.svg");
+
+header {
+  font-size: 10px;
+}
+
+ef-logo {
+  vertical-align: middle;
+  max-height: 150px;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+hamburger-icon {
+  width: 25px;
+  height: auto;
+}
