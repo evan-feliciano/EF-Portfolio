@@ -1,18 +1,18 @@
 body {
- background-image: url("../Images/desktop-background.svg");
+ background-image: url("../Images/mobile-background.svg");
+ font-family: montserrat, work-sans, varela-round;
+ font-size: 1.6rem;
+ font-weight: 300;
+ line-height: 3.5rem;
 
-header {
-  font-size: 10px;
-}
-
-ef-logo {
+.logo {
   vertical-align: middle;
   max-height: 150px;
   padding-left: 100px;
   padding-top: 100px;
 }
 
-hamburger-icon {
-  width: 25px;
+.mobile-nav {
+  width: 50px;
   height: auto;
 }
