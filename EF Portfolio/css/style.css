@@ -41,14 +41,17 @@ header {
 }
 
 .ef-logo {
-  width: 120px;
-  padding-left: 20px;
-  padding-top: 80px;
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
 }
 
 .hamburger-icon {
   width: 50px;
   height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .project1 h2 {
@@ -67,7 +70,9 @@ header {
 }
 
 .project1-image {
-  display: block;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 
 .project2 h2 {
@@ -85,6 +90,12 @@ header {
   padding-left: 50px;
 }
 
+.project2-image {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
 .project3 h2 {
   font-size: 3rem;
   color: #EEF3FE;
@@ -98,6 +109,12 @@ header {
   font-weight: normal;
   color: #EEF3FE;
   padding-left: 50px;
+}
+
+.project3-image {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 
 footer {
