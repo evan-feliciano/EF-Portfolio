@@ -40,18 +40,31 @@ header {
 
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
 .ef-logo {
   width: 80%;
   text-align: center;
-  margin-left: 10%;
+}
+
+.mobile-nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .hamburger-icon {
   width: 50px;
   height: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+}
+
+.desktop-nav {
+  display: none;
 }
 
 .project1 h2 {
