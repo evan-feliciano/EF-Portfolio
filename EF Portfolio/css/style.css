@@ -61,6 +61,14 @@ header {
   text-align: center;
 }
 
+.desktop-menu {
+  list-style-type: none;
+  text-align: center;
+}
+
+.desktop-menu li {
+  display: inline-block;
+}
 
 .project1 h2 {
   font-size: 3rem;
@@ -86,8 +94,22 @@ header {
 }
 
 .button1 {
-  text-align: center;
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.button1-1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #EEF3FE;
+  border-color: #EEF3FE;
+  border-radius: 30px;
+  border-width: 2px;
+  background-color: transparent;
+  margin: 20px 0;
+  width: 250px;
+  height: 55px;
 }
 
 .project2 h2 {
@@ -113,6 +135,25 @@ header {
   padding-bottom: 50px;
 }
 
+.button2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.button2-1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #22181C;
+  border-color: #22181C;
+  border-radius: 30px;
+  border-width: 2px;
+  background-color: transparent;
+  margin: 20px 0;
+  width: 250px;
+  height: 55px;
+}
+
 .project3 h2 {
   font-size: 3rem;
   color: #EEF3FE;
@@ -136,6 +177,25 @@ header {
   padding-bottom: 50px;
 }
 
+.button3 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.button3-1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #EEF3FE;
+  border-color: #EEF3FE;
+  border-radius: 30px;
+  border-width: 2px;
+  background-color: transparent;
+  margin: 20px 0;
+  width: 250px;
+  height: 55px;
+}
+
 footer {
   font-size: 1.4rem;
   font-family: montserrat;
@@ -152,13 +212,15 @@ footer {
 }
 
 .social {
-  list-style-type: none;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
-  .social li {
+
+.social li {
     display: inline;
-  }
+    padding: 20px;
+}
 
 .linkedin-logo
 {
