@@ -214,12 +214,17 @@ footer {
 .social {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding-top: 100px;
 }
 
 .social li {
     display: inline;
     padding: 20px;
+}
+
+.social a
+{
+text-decoration: none;
 }
 
 .linkedin-logo
