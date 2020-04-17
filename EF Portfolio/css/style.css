@@ -31,6 +31,8 @@ header {
 }
 
 .hero h1 {
+  font-weight: 500;
+  letter-spacing: 0rem;
   display: flex;
   justify-content: center;
   font-size: 4rem;
@@ -38,11 +40,12 @@ header {
   text-align: left;
   padding-top: 200px;
   padding-bottom: 100px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 400px;
+  padding-right: 400px;
 }
 
 .hero p {
+  letter-spacing: 0.1rem;
   font-size: 1.6rem;
   padding-left: 50px;
   padding-right: 50px;
@@ -54,10 +57,14 @@ header {
 
 .logo {
   position: absolute;
-  left: 50%;
+  left: 5%;
   margin-left: -25px;
-  padding-top: 15px;
+  padding-top: 20px;
   padding-right: 5px;
+}
+
+.ef-logo {
+  height: 40px;
 }
 
 .desktop-menu {
@@ -70,13 +77,19 @@ header {
 }
 
 .desktop-menu li {
-  color: #22181C;
-  text-decoration: none;
-  margin-left: 25px;
+  margin-right: 50px;
+  margin-left: 50px;
   display: inline-block;
 }
 
+.desktop-menu a {
+  font-weight: normal;
+  color: #22181C;
+  text-decoration: none;
+}
+
 .project1 h2 {
+  letter-spacing: .25rem;
   font-size: 3rem;
   color: #EEF3FE;
   padding-left: 50px;
@@ -84,6 +97,7 @@ header {
 }
 
 .project1 p {
+  letter-spacing: .1rem;
   font-size: 1.5rem;
   line-height: 2;
   font-weight: normal;
@@ -120,13 +134,16 @@ header {
 }
 
 .project2 h2 {
+  letter-spacing: .25rem;
   font-size: 3rem;
   color: #22181C;
   padding-left: 50px;
   padding-top: 50px;
+  padding-right: 50px;
 }
 
 .project2 p {
+  letter-spacing: .1rem;
   font-size: 1.5rem;
   line-height: 2;
   font-weight: normal;
@@ -163,6 +180,7 @@ header {
 }
 
 .project3 h2 {
+  letter-spacing: .25rem;
   font-size: 3rem;
   color: #EEF3FE;
   padding-left: 50px;
@@ -170,8 +188,9 @@ header {
 }
 
 .project3 p {
+  letter-spacing: .1rem;
   font-size: 1.5rem;
-  line-height: 1.5;
+  line-height: 2;
   font-weight: normal;
   color: #EEF3FE;
   padding-left: 50px;
@@ -208,16 +227,26 @@ header {
 footer {
   font-size: 1.4rem;
   font-family: montserrat;
+  font-weight: 300;
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+footer h1 {
+  font-weight: 500;
+  letter-spacing: .1rem;
 }
 
 .logo2 {
   text-align: center;
   padding-bottom: 100px;
+}
+
+.ef-logo2 {
+  height: 40px;
 }
 
 .button4 {
@@ -256,8 +285,8 @@ footer p {
 .social {
   list-style: none;
   margin: 0;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 5px;
   padding-left: 0px;
 }
 
@@ -289,7 +318,7 @@ text-decoration: none;
 
 
 
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 1025px) {
   .hamburger-icon   {
     display: none;
   }
@@ -297,8 +326,148 @@ text-decoration: none;
   .mobile-nav {
     display: none;
   }
-}
 
+  .project1 h2 {
+    letter-spacing: .25rem;
+    font-size: 5rem;
+    color: #EEF3FE;
+    padding-left: 100px;
+    padding-top: 100px;
+  }
+
+  .project1 p {
+    letter-spacing: .1rem;
+    font-size: 3rem;
+    line-height: 2;
+    font-weight: normal;
+    color: #EEF3FE;
+    padding-left: 100px;
+    padding-right: 1000px;
+    padding-bottom: 30px;
+  }
+
+  .project1-image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-left: 800px;
+  }
+
+  .companion-app-preview {
+    height: 800px;
+  }
+
+  .button1 {
+    display: flex;
+    justify-content: left;
+    padding-bottom: 50px;
+  }
+
+  .button1-1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #EEF3FE;
+    border-color: #EEF3FE;
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: transparent;
+    margin: 20px 0;
+    width: 250px;
+    height: 55px;
+  }
+
+  .project2 h2 {
+    letter-spacing: .25rem;
+    font-size: 3rem;
+    color: #22181C;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+  }
+
+  .project2 p {
+    letter-spacing: .1rem;
+    font-size: 1.5rem;
+    line-height: 2;
+    font-weight: normal;
+    color: #22181C;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+  }
+
+  .project2-image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .button2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .button2-1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #22181C;
+    border-color: #22181C;
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: transparent;
+    margin: 20px 0;
+    width: 250px;
+    height: 55px;
+  }
+
+  .project3 h2 {
+    letter-spacing: .25rem;
+    font-size: 3rem;
+    color: #EEF3FE;
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+
+  .project3 p {
+    letter-spacing: .1rem;
+    font-size: 1.5rem;
+    line-height: 2;
+    font-weight: normal;
+    color: #EEF3FE;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+  }
+
+  .project3-image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .button3 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .button3-1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #EEF3FE;
+    border-color: #EEF3FE;
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: transparent;
+    margin: 20px 0;
+    width: 250px;
+    height: 55px;
+  }
+}
 
 @media screen and (min-width: 600px) {
 
@@ -314,10 +483,22 @@ text-decoration: none;
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   /*body {
     background-image: url("paper.gif");
   }*/
+
+  .logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    padding-top: 20px;
+    padding-right: 5px;
+  }
+
+  .ef-logo {
+    height: 50px;
+  }
 
   .desktop-nav   {
     display: none;
@@ -326,13 +507,13 @@ text-decoration: none;
   .hero h1 {
     display: flex;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
     text-align: left;
     padding-top: 200px;
     padding-bottom: 100px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 }
 
@@ -340,6 +521,18 @@ text-decoration: none;
   /*body {
     background-image: url("../Images/mobile-background.svg");
   }*/
+
+  .logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    padding-top: 40px;
+    padding-right: 5px;
+  }
+
+  .ef-logo {
+    height: 30px;
+  }
 
   .desktop-nav {
     display: none;
@@ -352,19 +545,18 @@ text-decoration: none;
   }
 
   .hamburger-icon {
-    max-width: 35px;
-    max-height: 35px;
+    height: 27.5px;
   }
 
   .hero h1 {
     display: flex;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 1.5;
     text-align: left;
     padding-top: 200px;
     padding-bottom: 100px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
