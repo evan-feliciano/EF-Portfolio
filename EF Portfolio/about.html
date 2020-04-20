@@ -5,6 +5,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="stylesheet" type="text/css" href="css/normalize.css">
      <link rel="stylesheet" type="text/css" href="css/style.css">
+     <script src="portfolio.js"></script>
      <body>
        <!--nav-header-->
        <div class="containter">
@@ -16,9 +17,18 @@
          </a>
          </div>
          <!--menus-->
-         <div class="mobile-nav">
-           <img src="images/nav-menu.png" class="hamburger-icon">
+         <!--mobile-menu-->
+         <div class="mobile-nav" id="myNav" class="overlay">
+           <img src="images/nav-menu.png" class="hamburger-icon" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;>
+           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+           <div class="overlay-content">
+              <a href="#">projects</a>
+              <a href="#">about</a>
+              <a href="#">resume</a>
+            </div>
+            <span onclick="openNav()">open</span>
          </div>
+         <!--desktop-menu-->
          <div class="desktop-nav">
            <ul class="desktop-menu">
              <li>
