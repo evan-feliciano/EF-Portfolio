@@ -4,34 +4,35 @@
       <title>Case Study | {Cloud Kitchen}</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" type="text/css" href="css/normalize.css">
-      <link rel="stylesheet" type="text/css" href="css/casestudy.css">
+      <link rel="stylesheet" type="text/css" href="css/style2.css">
    </head>
    <body>
-      <div class="project-contatiner">
-         <header class="nav-bar">
-            <div class="logo">
-               <a href="index.html">
-                  <!--logo-->
-                  <img src="images/ef-logo.svg" class="ef-logo">
-               </a>
-            </div>
-            <div class="mobile-nav">
-               <img src="images/nav-menu.png" class="hamburger-icon">
-            </div>
-            <div class="desktop-nav">
-               <ul>
-                  <li>
-                     <a href="index.html">projects</a>
-                  </li>
-                  <li>
-                     <a href="about.html">about</a>
-                  </li>
-                  <li>
-                     <a href="ef.resume.pdf">resume</a>
-                  </li>
-               </ul>
-            </div>
-         </header>
+      <div class="project-container">
+        <header class="nav-bar">
+          <!--logo-->
+          <div class="logo">
+          <a href="index.html">
+            <img src="images/ef-logo.svg" class="ef-logo">
+          </a>
+          </div>
+          <!--menus-->
+          <div class="mobile-nav">
+            <img src="images/nav-menu.png" class="hamburger-icon">
+          </div>
+          <div class="desktop-nav">
+            <ul class="desktop-menu">
+              <li>
+                <a href="index.html">projects</a>
+              </li>
+              <li>
+                <a href="about.html">about</a>
+              </li>
+              <li>
+                <a href="ef.resume.pdf" target="_blank">resume</a>
+              </li>
+            </ul>
+          </div>
+          </header>
          <!--Case Study Hero-->
          <section class="project-hero">
             <div class="hero-title">
@@ -40,10 +41,11 @@
             <div class="project-hero-image">
                <img src="images/cloud-kitchen-preview.svg" class="cloud-kitchen-landing-page">
             </div>
-            <div class="button">
-            <a href="https://evanfeliciano476081.invisionapp.com/public/share/N813FQ5A6H" target="_blank" class="button1">View Case Study</a>
+            <div class="button1">
+            <button class="button1-1" onclick="location.href='https://evanfeliciano476081.invisionapp.com/public/share/N813FQ5A6H'" target="_blank">View Prototype</a>
             </div>
          </section>
+         </div>
          <!--Case Study Content-->
          <section class="project-content">
             <!--Case Study Overview-->
@@ -52,14 +54,15 @@
                <p>Since the beginning of time, sharing meals, cooking, and eating good food have brought people together in a unique way. Since then, different advances like fire, electricity, and the internet have continually revolutionized the way we approach eating and cooking, and also how we share those experiences with others. Cloud Kitchen is bringing together those old traditions with the newest advances in cloud technology to create a modern platform for users to experience food in new ways. Cloud Kitchen is a platform that allows users to create, collaborate and explore different types of food content, like recipes, diets, meal-plans, cooking techniques, and much more. Users can personalize their experience on the platform, as well as share their favorite content with friends, family, and social media.
                </p>
             </div>
-            <aside class="overview2">
+            <div class="overview-deliverables">
+            <div class="overview2">
                <h3>Role</h3>
                <p>Lead UX/UI Designer</p>
                <h3>Toolkit</h3>
                <p>Figma, Sketch, inVision, Typeform, UsabilityHub, Draw.io</p>
                <h3>Timeline</h3>
                <p>Jan - Mar 2020</p>
-            </aside>
+            </div>
             <!--Case Study Deliverables-->
             <div class="deliverables">
                <h2>Deliverables</h2>
@@ -78,20 +81,24 @@
                   <li>Desktop Prototype</li>
                </ul>
             </div>
+          </div>
             <!--Case Study Research and Discovery-->
             <div class="research-discovery">
                <h2>Research and Discovery</h2>
                <p>The first step of every successful design, always begins with research. I conducted to a survey to collect data on user’s behavior and needs regarding cloud technology, cooking and eating, and social habits, and to ensure that users were interested in using food-first product. Analyzing this data allowed me to draw out a few key takeaways: First, users are used to a high level of personalization and are very frustrated with lack of organizational features from existing products. Second, over 87% of users find the majority of their recipes online, but have no organized method of storing, saving, and sorting these recipes. Lastly, 90% users expressed interest in exploring, downloading and sharing other people’s recipes and food content in addition to being able to create their own.
                </p>
-               <figure class="suvery-stats">
-                  <img src="images/survey-stats.svg" alt="survey-stats" style="width:300px;height:500px;">
+               <figure class="survery-stats">
+                  <img src="images/survey-stats.svg" class="survey-stats1" style="width:300px;height:400px;">
+                  <img src="images/survey-stats-desktop.svg" class="survey-stats2">
                </figure>
                <p>With the information from this survey, I built 2 user personas that detailed what the target audiences would look like. The first was a younger group, interested in trying new foods and travelling to places, and posting about everything along the way. The second group was a bit older, less used to cloud tech, but more affluent and much used to cooking most meals at home.
                </p>
-               <a href="cloud-kitchen-user-personas.pdf" target="_blank" class="button">View Personas</a>
+               <div class="button2">
+               <button class="button2-1" onclick="location.href='cloud-kitchen-user-personas.pdf'" target="_blank">View Personas</a>
+                </div>
             </div>
             <!--Case Study Competitive Analysis-->
-            <div class="content-section">
+            <div class="competitive-analysis">
                <h2>Competitive Analysis</h2>
                <p>With other huge competitors in the cloud space, the food focus would be a sure way to establish our own postition amongst some of the most well-established players. With that being said, there’s still a lot we can takeaway from seeing what others are already doing well and where they could improve. Google Drive is probably the most common cloud tool, and offers a ton of awesome creative tools for individuals and bootstrapped businesses to choose from. However, their organization tools are very minimal, and often leave users with a cluttered and confusing interface. iCloud plays off their iOS theme which gives it a creative feel and keeps things very organized, unfortunately, most of these tools are kept locked behind a paywall. Dropbox feels the most formal and secure with it’s simple design. And while organizational tools could be improved upon, they offer users the choice to use their native machine’s storage method, which eases most of the burden when it comes to clean storage and easy access.
                </p>
@@ -103,64 +110,72 @@
                <img src="images/dropbox-preview.png" class="dropbox-preview">
             </div>
             <!--Case Study Information Architecture-->
-            <div class="content-section">
+            <div class="information-architecture">
                <h2>Information Architecture</h2>
                <p>Next I created user stories to nail down exactly what tasks users would need to be able to complete in order to meet all their needs. Priorotiziation allowed me to focus on the most important tasks first and come back to secondary needs afterwards.
                </p>
-               <img src="images/user-stories.svg" alt="user-stories">
+               <img src="images/user-stories.svg" class="user-stories">
                <p>Then I created user flos, basically a blueprint for the actual functionality of the design. Both the stories and flows were used as references to guide the later stages of design, with usability and solving user problems, as the main goal of the platform.
                </p>
-               <a href="cloud-kitchen-user-personas.pdf" class="button">View User Flows</a>
+               <div class="button2">
+               <button class="button2-1" onclick="location.href='cloud-kitchen-user-flows.pdf'">View User Flows</a>
+             </div>
             </div>
             <!--Case Study Wireframes-->
-            <div class="content-section">
+            <div class="wireframes">
                <h2>Wireframes</h2>
                <p>With a clear idea of what and how the platform would work, I began skecthing out ideas of what the design could actually look like. Sketching proved to be a great way to save time, as uninspiring interfaces and layouts could easily be scrapped, improved, or tweaked before moving on to create digital wireframes.
                </p>
-               <img src="images/wireframe-sketch1.svg" alt="sketch1">
-               <img src="images/wireframe-sketch2.svg" alt="sketch2">
+               <div class="sketches">
+               <img src="images/wireframe-sketch1.svg" class="sketch1">
+               <img src="images/wireframe-sketch2.svg" class="sketch2">
+             </div>
                <p>After many interations, I landed on the designs pictured aboce and created digital mockups that would be used for initial user testing before moving on to high fidelty mockups pictured below.
                </p>
                <h4>My Profile</h4>
-               <img src="images/profile-wireframe.png" alt="wireframe1">
+               <img src="images/profile-wireframe.png" class="wireframe1">
                <h4>Explore Page</h4>
-               <img src="images/explore-wireframe.png" alt="wireframe2">
+               <img src="images/explore-wireframe.png" class="wireframe2">
                <h4>Content View</h4>
-               <img src="images/content-wireframe.png" alt="wireframe3">
+               <img src="images/content-wireframe.png" class="wireframe3">
                <h4>Create Tool</h4>
-               <img src="images/create-wireframe.png" alt="wireframe4">
-               <a href="https://drive.google.com/drive/folders/19JZDZmKuZljJSpHGABg-VGDCCYSzfSGb?usp=sharing" class="button">View Wireframes</a>
+               <img src="images/create-wireframe.png" class="wireframe4">
+               <div class="button3">
+               <button class="button3-1" onclick="location.href='https://drive.google.com/drive/folders/19JZDZmKuZljJSpHGABg-VGDCCYSzfSGb?usp=sharing'">View Wireframes</a>
+             </div>
             </div>
             <!--Case Study Branding-->
-            <div class="content-section">
+            <div class="branding">
                <h2>Branding</h2>
                <p>After fleshing out the blueprints to platform, getting feedback from the users, and adjusting the design, the next step was to add some life and branding into the wireframes. I love the name Cloud Kitchen because it’s very simple and speaks to exactly what the functionality of the platform is.
                </p>
-               <img src="images/logos.svg" alt="cloud-kitchen-logos">
+               <img src="images/logos.svg" class="cloud-kitchen-logos">
                <p>For typography I chose Poppins for the main font, and Fira Sans for the secondy font. Both are modern, but Poppins is bit more stylish and and inspiring for logos and call-to-actions, while Fira Sans is safe and easy to read in larger bodies of text. The logo itself, reiterates the simplicity of the name as utensils over a cloud, with other color and text versions for different backgrounds and devices.
                </p>
-               <img src="images/typography.svg" alt="cloud-kitchen-type">
+               <img src="images/typography.svg" class="cloud-kitchen-type">
                <p>For colors, I went with a bold, pantone red as the main brand color because a majority of the content would end up being user generated, and the red still cuts through well. I also added some blacks, grays, and whites, as well as comforting blue to contrast when red might feel a little invasive.
                </p>
-               <img src="images/colors.svg" alt="cloud-kitchen-colors">
+               <img src="images/colors.svg" class="cloud-kitchen-colors">
             </div>
             <!--Case Study Final Design-->
-            <div class="content-section">
+            <div class="final-design">
                <h2>Final Design</h2>
                <p>Before sending everything off to developers for production, I needed to again test my design with real users to ensure the functionality and aesthetics of the platform were not hindered with additions of colors, branding, etc. With UsabilitHub, I AB tested slightly different variations of the same design in controlled environment to see what exactly users prereffered. After collecting this data, and implementing the final changes, here are the final designs I ended with.
                </p>
                <h4>Explore Page</h4>
-               <img src="images/explore-final.svg" alt="explore-final">
+               <img src="images/explore-final.svg" class="explore-final">
                <h4>Interests Page</h4>
-               <img src="images/interests-final.svg" alt="interests-final">
+               <img src="images/interests-final.svg" class="interests-final">
                <h4>MyKitchen Page</h4>
-               <img src="images/mykitchen-final.svg" alt="mykitchen-final">
+               <img src="images/mykitchen-final.svg" class="mykitchen-final">
                <h5>Mobile Designs</h5>
-               <img src="images/mobile-design-preview.svg" alt="mobile-preview-final">
-               <a href="https://evanfeliciano476081.invisionapp.com/public/share/N813FQ5A6H" class="button">View Cloud Kitchen Prototype</a>
+               <img src="images/mobile-design-preview.svg" class="mobile-preview-final">
+               <div class="button2">
+               <button class="button2-1" onclick="location.href='https://evanfeliciano476081.invisionapp.com/public/share/N813FQ5A6H'">View Prototype</a>
+             </div>
             </div>
             <!--Case Study Conclusion-->
-            <div class="content-section">
+            <div class="conclusion">
                <h2>Conlusion</h2>
                <p>At the end of day, I created a design that allows users to create, collaborate, and explore food content in a brand new, exciting way. I identified a target audience and niche sector that would allow the product to enter the market successfully amongst some of the biggest competitors, while still providing users with a delightfully simple, and intuitive user experience.
                </p>
@@ -168,27 +183,36 @@
          </section>
          <!--End of Case Study-->
          <footer>
-            <h1>Like what I did with this project? Let’s find out how I can help apply these concepts and solve your users’ problems together!
+           <div class="logo2">
+           <a href="index.html">
+             <img src="images/ef-logo.svg" class="ef-logo2">
+           </a>
+           </div>
+            <h1>Like what I did with this project?<br><br>Find out how I can apply these concepts to solve your users’ problems together!
             </h1>
-            <a href="mailto:evan.feliciano96@gmail.com" class="button">Get in Touch</a>
-            <ul class="social">
-               <li>
-                  <a href="https://www.linkedin.com/in/evan-feliciano/">
-                  <img src=images/linkedin-logo.svg alt="linkedin-logo">
-                  </a>
-               </li>
-               <li>
+            <div class="button6">
+            <button class="button6-1" onclick="mailto.href='evan.feliciano96@gmail.com'" id="contact">Get in touch</button>
+          </div>
+          <p>a few other places to find me</p>
+          <ul class="social">
+            <div class="table">
+            <li>
+              <a href="https://www.linkedin.com/in/evan-feliciano/">
+                <img src=images/linkedin-logo.svg class="linkedin-logo">
+              </a>
+              </li>
+                <li>
                   <a href="https://github.com/evan-feliciano">
-                  <img src=images/github-logo.svg alt="github-logo">
+                    <img src=images/github-logo.svg class="github-logo">
                   </a>
-               </li>
-               <li>
-                  <a href="https://www.instagram.com/evan.feliciano.design/">
-                  <img src=images/instagram-logo.svg alt="instagram-logo">
-                  </a>
-               </li>
-            </ul>
+                  </li>
+                    <li>
+                      <a href="https://www.instagram.com/evan.feliciano.design/">
+                        <img src=images/instagram-logo.svg class="instagram-logo">
+                      </a>
+                      </li>
+                    </div>
+              </ul>
          </footer>
-      </div>
    </body>
 </html>
