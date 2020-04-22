@@ -668,6 +668,13 @@ text-decoration: none;
   .desktop-nav   {
     display: none;
   }
+  
+  .mobile-menu1 {
+    position: absolute;
+    right: 15px;
+    margin: 10px;
+    height: 27.5px;
+  }
 
   .hero h1 {
     display: flex;
