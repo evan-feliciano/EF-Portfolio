@@ -682,9 +682,21 @@
   }
 
 
+
+
+
+
+
 }
 /*tablet*/
 @media screen and (max-width: 1024px) {
+
+  .mobile-menu1 {
+    position: absolute;
+    right: 15px;
+    margin: 10px;
+    height: 27.5px;
+  }
 
 }
 
