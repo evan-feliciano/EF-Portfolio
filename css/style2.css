@@ -709,14 +709,14 @@
 
   .logo {
     position: absolute;
-    left: 5%;
+    left: 50%;
     margin-left: -25px;
-    padding-top: 20px;
+    padding-top: 70px;
     padding-right: 5px;
+    padding-bottom: 100px;
   }
 
   .ef-logo {
-    padding-top: 20px;
     height: 40px;
   }
 
@@ -750,6 +750,7 @@
     font-size: 4rem;
     line-height: 1.2;
     text-align: center;
+    padding-top: 50px;
     padding-bottom: 80px;
     padding-left: 50px;
     padding-right: 50px;
@@ -758,11 +759,11 @@
   .project-hero-image {
     display: flex;
     justify-content: center;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
   }
 
   .cloud-kitchen-landing-page {
-    height: 800px;
+    height: 600px;
   }
 
   .button1 {
@@ -770,7 +771,7 @@
     justify-content: center;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
   }
 
   .button1-1 {
@@ -792,8 +793,8 @@
   .overview {
     text-align: left;
     letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 20px;
     padding-bottom: 50px;
     line-height: 1.6;
@@ -816,8 +817,8 @@
 
   .overview2 {
     text-align: left;
-    padding-left: 300px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
     font-size: 1rem;
@@ -857,13 +858,14 @@
     margin-right: auto;
     padding-top: 50px;
     padding-bottom: 50px;
+    height: 120px;
   }
 
   .research-discovery h2 {
     text-align: left;
     letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 50px;
     font-size: 2.4rem;
     line-height: 1.6;
@@ -872,8 +874,8 @@
   .research-discovery p {
     text-align: left;
     letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 0;
     font-size: 1.4rem;
     line-height: 1.6;
@@ -884,8 +886,8 @@
     justify-content: center;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 100px;
-    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
 
   .button2-1 {
@@ -906,14 +908,14 @@
 
   .competitive-analysis {
     background-color: #EEF3FE;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
   }
 
   .competitive-analysis h2 {
     text-align: left;
     letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 100px;
     font-size: 2.4rem;
     line-height: 1.6;
@@ -922,8 +924,8 @@
   .competitive-analysis p {
     text-align: left;
     letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 0;
     font-size: 1.4rem;
     line-height: 1.6;
@@ -941,7 +943,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 500px;
+    height: 350px;
     box-shadow: 5px 5px 15px grey;
 
   }
@@ -950,7 +952,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 500px;
+    height: 350px;
     box-shadow: 5px 5px 15px grey;
   }
 
@@ -958,7 +960,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 500px;
+    height: 350px;
     box-shadow: 5px 5px 15px grey;
   }
 
@@ -969,8 +971,8 @@
   .information-architecture h2 {
     text-align: left;
     letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 100px;
     font-size: 2.4rem;
     line-height: 1.6;
@@ -979,8 +981,8 @@
   .information-architecture p {
     text-align: left;
     letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 0;
     font-size: 1.4rem;
     line-height: 1.6;
@@ -990,7 +992,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 400px;
+    height: 280px;
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -1009,8 +1011,8 @@
   .wireframes h2 {
     text-align: left;
     letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 40px;
     font-size: 2.4rem;
     line-height: 1.6;
@@ -1019,8 +1021,8 @@
   .wireframes p {
     text-align: left;
     letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 0;
     font-size: 1.4rem;
     line-height: 1.6;
@@ -1035,7 +1037,7 @@
     display: block;
     margin-left: auto;
     margin-right: 25px;;
-    height: 800px;
+    height: 300px;
     padding-bottom: 50px;
     padding-left: 200px;
   }
@@ -1044,7 +1046,7 @@
     display: block;
     margin-left: 25px;
     margin-right: auto;
-    height: 800px;
+    height: 300px;
     padding-bottom: 50px;
     padding-right: 200px;
   }
@@ -1053,15 +1055,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 500px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .wireframe1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 550px;
+    height: 400px;
     box-shadow: 5px 5px 15px grey;
   }
 
@@ -1069,7 +1063,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 550px;
+    height: 400px;
     box-shadow: 5px 5px 15px grey;
   }
 
@@ -1077,7 +1071,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 550px;
+    height: 400px;
     box-shadow: 5px 5px 15px grey;
   }
 
@@ -1085,7 +1079,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 550px;
+    height: 400px;
     box-shadow: 5px 5px 15px grey;
   }
 
@@ -1094,8 +1088,8 @@
     justify-content: center;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 100px;
-    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
 
   .button3-1 {
@@ -1121,8 +1115,8 @@
   .branding h2 {
     text-align: left;
     letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 50px;
     font-size: 2.4rem;
     line-height: 1.6;
@@ -1131,8 +1125,8 @@
   .branding p {
     text-align: left;
     letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 0;
     font-size: 1.4rem;
     line-height: 1.6;
@@ -1144,7 +1138,7 @@
     margin-right: auto;
     padding-top: 30px;
     padding-bottom: 30px;
-    height: 150px;
+    height: 100px;
   }
 
   .cloud-kitchen-type {
@@ -1172,8 +1166,8 @@
   .final-design h2 {
     text-align: left;
     letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 100px;
     font-size: 2.4rem;
     line-height: 1.6;
@@ -1182,8 +1176,8 @@
   .final-design p {
     text-align: left;
     letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 0;
     font-size: 1.4rem;
     line-height: 1.6;
@@ -1200,7 +1194,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 550px;
+    height: 400px;
     box-shadow: 5px 5px 15px grey;
   }
 
@@ -1208,7 +1202,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 550px;
+    height: 400px;
     box-shadow: 5px 5px 15px grey;
   }
 
@@ -1216,14 +1210,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 550px;
+    height: 400px;
     box-shadow: 5px 5px 15px grey;
   }
 
   .final-design h5 {
     display: flex;
     justify-content: center;
-    padding-top: 150px;
+    padding-top: 100px;
     font-size: 2.4rem;
 
   }
@@ -1232,15 +1226,15 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 600px;
+    height: 400px;
   }
 
 
   .conclusion h2 {
     text-align: left;
     letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 100px;
     font-size: 2.4rem;
     line-height: 1.6;
@@ -1249,8 +1243,8 @@
   .conclusion p {
     text-align: left;
     letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 0;
     font-size: 1.4rem;
     line-height: 1.6;
