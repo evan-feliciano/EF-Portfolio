@@ -159,7 +159,7 @@
   .deliverables {
     background-color: #EEF3FE;
     text-align: left;
-    padding-right: 600px;
+    padding-right: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
     font-size: 1rem;
@@ -689,11 +689,11 @@
 
 }
 /*tablet*/
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 500px) and (max-width: 1024px){
 
 
   html {
-    background: url("../Images/desktop-footer.svg") no-repeat center center fixed;
+    background: url("../images/tablet-background.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -817,8 +817,8 @@
 
   .overview2 {
     text-align: left;
-    padding-left: 150px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 25px;
     padding-top: 50px;
     padding-bottom: 50px;
     font-size: 1rem;
@@ -832,7 +832,7 @@
   .deliverables {
     background-color: #EEF3FE;
     text-align: left;
-    padding-right: 600px;
+    padding-right: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
     font-size: 1rem;
@@ -1251,6 +1251,11 @@
   }
 
   footer {
+    background: url("../Images/tablet-background.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background: transparent;
     font-size: .8rem;
     font-family: montserrat;
@@ -1361,6 +1366,13 @@
 /*mobile*/
 @media screen and (max-width: 600px) {
 
+  html {
+    background: url("../images/mobile-background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
   body {
     font-family: montserrat, varela-round;
@@ -1369,11 +1381,6 @@
 
 
   .project-container {
-    background: url("../Images/mobile-background.svg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     padding-bottom: 100px;
   }
 
@@ -1424,6 +1431,7 @@
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
+    height: 400px;
   }
 
   .button1 {
@@ -1641,6 +1649,8 @@
   }
 
   .wireframes h4 {
+    display: flex;
+    justify-content: center;
     padding-left: 25px;
     padding-top: 20px;
   }
@@ -1900,7 +1910,7 @@
     padding-bottom: 50px;
     padding-left: 40px;
     padding-right: 40px;
-    background: url("../Images/mobile-footer.svg") no-repeat center center fixed;
+    background: url("../images/mobile-footer.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
