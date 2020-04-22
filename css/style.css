@@ -646,7 +646,7 @@ text-decoration: none;
 
 
   html {
-    background: url("../Images/mobile-background.svg") no-repeat center center fixed;
+    background: url("../Images/mobile-background.svg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -668,7 +668,7 @@ text-decoration: none;
   .desktop-nav   {
     display: none;
   }
-  
+
   .mobile-menu1 {
     position: absolute;
     right: 15px;
@@ -722,7 +722,7 @@ text-decoration: none;
   }
 
   footer {
-    background: url("../Images/mobile-footer.svg") no-repeat center center fixed;
+    background: url("../Images/mobile-footer.svg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -737,7 +737,7 @@ text-decoration: none;
   }*/
 
   html {
-    background: url("../images/mobile-background.png") no-repeat center center fixed;
+    background: url("../Images/mobile-background.svg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -846,7 +846,7 @@ text-decoration: none;
   }
 
   footer {
-    background: url("../images/mobile-footer.png") no-repeat center center fixed;
+    background: url("../Images/mobile-footer.svg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
