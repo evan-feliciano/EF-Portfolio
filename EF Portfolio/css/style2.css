@@ -1,1326 +1,236 @@
-
-/*desktop*/
-@media screen and (min-width: 1025px) {
-
-  html {
-    background: url("../Images/desktop-footer.svg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: montserrat;
-  }
-
-  header {
-    display: flex;
-    justify-content: center;
-    margin: 1.875rem;
-  }
-
-  .logo {
-    position: absolute;
-    left: 5%;
-    margin-left: -25px;
-    padding-top: 20px;
-    padding-right: 5px;
-  }
-
-  .ef-logo {
-    padding-top: 20px;
-    height: 40px;
-  }
-
-  .desktop-menu {
-    font-size: 1.3rem;
-    list-style: none;
-    text-align: center;
-    position: absolute;
-    right: 15px;
-    margin: 10px;
-  }
-
-  .desktop-menu li {
-    margin-right: 50px;
-    margin-left: 50px;
-    display: inline-block;
-  }
-
-  .desktop-menu a {
-    font-weight: normal;
-    color: #22181C;
-    text-decoration: none;
-  }
-
-  .hamburger-icon   {
-    display: none;
-  }
-
-  .mobile-nav {
-    display: none;
-  }
-
-  .hero p {
-    letter-spacing: 0.1rem;
-    font-size: 2.2rem;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 100px;
-    text-align: center;
-    font-weight: normal;
-  }
-
-  .project-hero {
-    padding-top: 100px;
-  }
-
-  .hero-title h1 {
-    font-size: 4rem;
-    line-height: 1.2;
-    text-align: center;
-    padding-bottom: 80px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .project-hero-image {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 200px;
-  }
-
-  .cloud-kitchen-landing-page {
-    height: 800px;
-  }
-
-  .button1 {
-    display: flex;
-    justify-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 200px;
-  }
-
-  .button1-1 {
-    font-size: 1.4rem;
-    font-weight: 500;
-    color: #22181C;
-    border-color: #22181C;
-    border-radius: 30px;
-    border-width: 2px;
-    border-style: solid;
-    background-color: transparent;
-    margin: 40px 0;
-    width: 300px;
-    height: 60px;
-    text-decoration: none;
-    text-align: center;
-  }
-
-  .overview {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 20px;
-    padding-bottom: 50px;
-    line-height: 1.6;
-  }
-
-  .overview-deliverables {
-    background-color: #EEF3FE;
-    display: flex;
-    justify-content:
-
-  }
-
-  .overview h2 {
-    font-size: 2.4rem;
-  }
-
-  .overview p {
-    font-size: 1.4rem;
-  }
-
-  .overview2 {
-    text-align: left;
-    padding-left: 300px;
-    padding-right: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-
-  .overview2 h3 {
-    font-size: 2rem;
-  }
-
-  .deliverables {
-    background-color: #EEF3FE;
-    text-align: left;
-    padding-right: 600px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-
-  .deliverables ul {
-    line-height: 2;
-    padding-left: 20px;
-  }
-
-  .aside-content-section p {
-    padding-top: 0;
-  }
-
-  .survey-stats1 {
-    display: none;
-  }
-
-  .survey-stats2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  .research-discovery h2 {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 50px;
-    font-size: 2.4rem;
-    line-height: 1.6;
-  }
-
-  .research-discovery p {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-bottom: 0;
-    font-size: 1.4rem;
-    line-height: 1.6;
-  }
-
-  .button2 {
-    display: flex;
-    justify-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 100px;
-    padding-top: 100px;
-  }
-
-  .button2-1 {
-    font-size: 1.4rem;
-    font-weight: 500;
-    color: #22181C;
-    border-color: #22181C;
-    border-radius: 30px;
-    border-width: 2px;
-    border-style: solid;
-    background-color: transparent;
-    margin: 40px 0;
-    width: 300px;
-    height: 60px;
-    text-decoration: none;
-    text-align: center;
-  }
-
-  .competitive-analysis {
-    background-color: #EEF3FE;
-    padding-bottom: 200px;
-  }
-
-  .competitive-analysis h2 {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 100px;
-    font-size: 2.4rem;
-    line-height: 1.6;
-  }
-
-  .competitive-analysis p {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-bottom: 0;
-    font-size: 1.4rem;
-    line-height: 1.6;
-  }
-
-  .competitive-analysis h4 {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    font-size: 1.8rem;
-  }
-
-
-  .google-preview {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 500px;
-    box-shadow: 5px 5px 15px grey;
-
-  }
-
-  .icloud-preview {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 500px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .dropbox-preview {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 500px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .information-architecture {
-
-  }
-
-  .information-architecture h2 {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 100px;
-    font-size: 2.4rem;
-    line-height: 1.6;
-  }
-
-  .information-architecture p {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-bottom: 0;
-    font-size: 1.4rem;
-    line-height: 1.6;
-  }
-
-  .user-stories {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 400px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  .wireframes {
-    background-color: #EEF3FE;
-  }
-
-  .wireframes h4 {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    font-size: 1.8rem;
-  }
-
-  .wireframes h2 {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 40px;
-    font-size: 2.4rem;
-    line-height: 1.6;
-  }
-
-  .wireframes p {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-bottom: 0;
-    font-size: 1.4rem;
-    line-height: 1.6;
-  }
-
-  .sketches {
-    display: flex;
-    justify-content: center;
-  }
-
-  .sketch1 {
-    display: block;
-    margin-left: auto;
-    margin-right: 25px;;
-    height: 800px;
-    padding-bottom: 50px;
-    padding-left: 200px;
-  }
-
-  .sketch2 {
-    display: block;
-    margin-left: 25px;
-    margin-right: auto;
-    height: 800px;
-    padding-bottom: 50px;
-    padding-right: 200px;
-  }
-
-  .wireframe1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 500px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .wireframe1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 550px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .wireframe2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 550px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .wireframe3 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 550px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .wireframe4 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 550px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .button3 {
-    display: flex;
-    justify-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 100px;
-    padding-top: 100px;
-  }
-
-  .button3-1 {
-    font-size: 1.4rem;
-    font-weight: 500;
-    color: #22181C;
-    border-color: #22181C;
-    border-radius: 30px;
-    border-width: 2px;
-    border-style: solid;
-    background-color: transparent;
-    margin: 40px 0;
-    width: 300px;
-    height: 60px;
-    text-decoration: none;
-    text-align: center;
-  }
-
-  .branding {
-
-  }
-
-  .branding h2 {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 50px;
-    font-size: 2.4rem;
-    line-height: 1.6;
-  }
-
-  .branding p {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-bottom: 0;
-    font-size: 1.4rem;
-    line-height: 1.6;
-  }
-
-  .cloud-kitchen-logos {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    height: 150px;
-  }
-
-  .cloud-kitchen-type {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    height: 300px;
-  }
-
-  .cloud-kitchen-colors {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 30px;
-    padding-bottom: 100px;
-    height: 300px;
-  }
-
-  .final-design {
-    background-color: #EEF3FE;
-  }
-
-  .final-design h2 {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 100px;
-    font-size: 2.4rem;
-    line-height: 1.6;
-  }
-
-  .final-design p {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-bottom: 0;
-    font-size: 1.4rem;
-    line-height: 1.6;
-  }
-
-  .final-design h4 {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    font-size: 1.8rem;
-  }
-
-  .explore-final {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 550px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .interests-final {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 550px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .mykitchen-final {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 550px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .final-design h5 {
-    display: flex;
-    justify-content: center;
-    padding-top: 150px;
-    font-size: 2.4rem;
-
-  }
-
-  .mobile-preview-final {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 600px;
-  }
-
-
-  .conclusion h2 {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 100px;
-    font-size: 2.4rem;
-    line-height: 1.6;
-  }
-
-  .conclusion p {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-bottom: 0;
-    font-size: 1.4rem;
-    line-height: 1.6;
-  }
-
-  footer {
-    background: transparent;
-    font-size: .8rem;
-    font-family: montserrat;
-    font-weight: 300;
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 50px;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
-  footer h1 {
-    font-weight: 500;
-    letter-spacing: .1rem;
-  }
-
-  .button5 {
-    display: none;
-  }
-
-  .logo2 {
-    text-align: center;
-    padding-bottom: 100px;
-  }
-
-  .ef-logo2 {
-    height: 40px;
-  }
-
-  .button6 {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-  }
-
-  .button6-1 {
-    letter-spacing: .25rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #EEF3FE;
-    border-color: #22181C;
-    border-radius: 30px;
-    border-width: 2px;
-    border-style: solid;
-    background-color: #22181C;
-    margin: 20px 0;
-    width: 250px;
-    height: 55px;
-  }
-
-  footer p {
-    text-align: center;
-    padding-top: 100px;
-    font-size: 1.4rem;
-    font-weight: normal;
-  }
-
-  .table {
-    display: table;
-    margin: auto;
-  }
-
-  .social {
-    list-style: none;
-    margin: 0;
-    padding-top: 30px;
-    padding-bottom: 5px;
-    padding-left: 0px;
-  }
-
-  .social li {
-      display: inline;
-      justify-content: center;
-      padding: 20px;
-  }
-
-  .social a
-  {
-  text-decoration: none;
-  }
-
-  .linkedin-logo
-  {
-    width: 50px;
-  }
-
-  .github-logo
-  {
-    width: 50px;
-  }
-
-  .instagram-logo
-  {
-    width: 50px;
-  }
-
-
-}
-/*tablet*/
-@media screen and (max-width: 1024px) {
-
-}
-
-/*mobile*/
-@media screen and (max-width: 600px) {
-
-
-  body {
-    font-family: montserrat, varela-round;
-    color: #22181C;
-  }
-
-
-  .project-container {
-    background: url("../Images/mobile-background.svg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-bottom: 100px;
-  }
-
-  .logo {
-    position: absolute;
-    left: 50%;
-    margin-left: -25px;
-    padding-top: 70px;
-    padding-right: 5px;
-    padding-bottom: 100px;
-  }
-
-  .ef-logo {
-    height: 30px;
-  }
-
-  .desktop-nav {
-    display: none;
-  }
-
-  .mobile-nav {
-    padding-top: 30px;
-    position: absolute;
-    right: 15px;
-    margin: 10px;
-  }
-
-  .hamburger-icon {
-    height: 27.5px;
-  }
-
-  .project-hero {
-    padding-top: 100px;
-  }
-
-  .hero-title h1 {
-    font-size: 2.5rem;
-    line-height: 1.2;
-    text-align: center;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-  }
-
-  .project-hero-image {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 50px;
-  }
-
-  .button1 {
-    display: flex;
-    justify-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 40px;
-  }
-
-  .button1-1 {
-    font-size: 1rem;
-    font-weight: 500;
-    color: #22181C;
-    border-color: #22181C;
-    border-radius: 30px;
-    border-width: 2px;
-    border-style: solid;
-    background-color: transparent;
-    margin: 20px 0;
-    width: 220px;
-    height: 45px;
-    text-decoration: none;
-    text-align: center;
-  }
-
-  .overview {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-
-  .overview2 {
-    background-color: #EEF3FE;
-    text-align: left;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 24px;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-
-  .deliverables {
-    background-color: #EEF3FE;
-    text-align: left;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-
-  .deliverables ul {
-    line-height: 2;
-    padding-left: 20px;
-  }
-
-  .aside-content-section p {
-    padding-top: 0;
-  }
-
-  .research-discovery {
-
-    /*display: flex;
-    justify-content: center;*/
-
-  }
-
-  .research-discovery h2 {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    font-size: 1.5rem;
-    line-height: 1.6;
-  }
-
-  .research-discovery p {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 0;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-
-  .survey-stats2 {
-    display: none;
-  }
-
-  .button2 {
-    display: flex;
-    justify-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 40px;
-    padding-top: 20px;
-  }
-
-  .button2-1 {
-    font-size: 1rem;
-    font-weight: 500;
-    color: #22181C;
-    border-color: #22181C;
-    border-radius: 30px;
-    border-width: 2px;
-    border-style: solid;
-    background-color: transparent;
-    margin: 20px 0;
-    width: 220px;
-    height: 45px;
-    text-decoration: none;
-    text-align: center;
-  }
-
-  .competitive-analysis {
-    background-color: #EEF3FE;
-    padding-bottom: 40px;
-  }
-
-  .competitive-analysis h2 {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 40px;
-    font-size: 1.5rem;
-    line-height: 1.6;
-  }
-
-  .competitive-analysis p {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 0;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-
-  .competitive-analysis h4 {
-    padding-left: 25px;
-  }
-
-
-  .google-preview {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 180px;
-    box-shadow: 5px 5px 15px grey;
-
-  }
-
-  .icloud-preview {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 180px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .dropbox-preview {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 180px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .information-architecture {
-
-  }
-
-  .information-architecture h2 {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    font-size: 1.5rem;
-    line-height: 1.6;
-  }
-
-  .information-architecture p {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 0;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-
-  .user-stories {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 140px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .wireframes {
-    background-color: #EEF3FE;
-  }
-
-  .wireframes h4 {
-    padding-left: 25px;
-    padding-top: 20px;
-  }
-
-  .wireframes h2 {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 40px;
-    font-size: 1.5rem;
-    line-height: 1.6;
-  }
-
-  .wireframes p {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 0;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-
-  .sketch1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 280px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .sketch2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 300px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .wireframe1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 180px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .wireframe1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 180px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .wireframe2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 180px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .wireframe3 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 180px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .wireframe4 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 180px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .button3 {
-    display: flex;
-    justify-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 40px;
-    padding-top: 50px;
-  }
-
-  .button3-1 {
-    font-size: 1rem;
-    font-weight: 500;
-    color: #22181C;
-    border-color: #22181C;
-    border-radius: 30px;
-    border-width: 2px;
-    border-style: solid;
-    background-color: transparent;
-    margin: 20px 0;
-    width: 220px;
-    height: 45px;
-    text-decoration: none;
-    text-align: center;
-  }
-
-  .branding {
-
-  }
-
-  .branding h2 {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    font-size: 1.5rem;
-    line-height: 1.6;
-  }
-
-  .branding p {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 0;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-
-  .cloud-kitchen-logos {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    height: 50px;
-  }
-
-  .cloud-kitchen-type {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    height: 180px;
-  }
-
-  .cloud-kitchen-colors {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    height: 160px;
-  }
-
-  .final-design {
-    background-color: #EEF3FE;
-  }
-
-  .final-design h2 {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 40px;
-    font-size: 1.5rem;
-    line-height: 1.6;
-  }
-
-  .final-design p {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 0;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-
-  .final-design h4 {
-    padding-left: 25px;
-    padding-top: 20px;
-  }
-
-  .explore-final {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 180px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .interests-final {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 180px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .mykitchen-final {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 180px;
-    box-shadow: 5px 5px 15px grey;
-  }
-
-  .final-design h5 {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    font-size: 1.2rem;
-
-  }
-
-  .mobile-preview-final {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 180px;
-    padding-bottom: 40px;
-  }
-
-
-  .conclusion h2 {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 40px;
-    font-size: 1.5rem;
-    line-height: 1.6;
-  }
-
-  .conclusion p {
-    text-align: left;
-    letter-spacing: .05rem;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 0;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-
-
-  footer {
-    background: transparent;
-    font-size: 1.4rem;
-    font-family: montserrat;
-    font-weight: 300;
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 50px;
-    padding-left: 40px;
-    padding-right: 40px;
-    background: url("../Images/mobile-footer.svg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
-  footer h1 {
-    text-align: left;
-    font-weight: 500;
-    letter-spacing: .1rem;
-    font-size: 1.4rem;
-  }
-
-  .button5 {
-    display: none;
-  }
-
-  .logo2 {
-    text-align: center;
-    padding-bottom: 60px;
-  }
-
-  .ef-logo2 {
-    height: 40px;
-  }
-
-  .button6 {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-  }
-
-  .button6-1 {
-    letter-spacing: .25rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #EEF3FE;
-    border-color: #22181C;
-    border-radius: 30px;
-    border-width: 2px;
-    border-style: solid;
-    background-color: #22181C;
-    margin: 20px 0;
-    width: 250px;
-    height: 55px;
-  }
-
-  footer p {
-    text-align: center;
-    padding-top: 120px;
-    font-size: 1rem;
-    font-weight: normal;
-  }
-
-  .table {
-    display: table;
-    margin: auto;
-  }
-
-  .social {
-    list-style: none;
-    margin: 0;
-    padding-top: 30px;
-    padding-bottom: 5px;
-    padding-left: 0px;
-  }
-
-  .social li {
-      display: inline;
-      justify-content: center;
-      padding: 20px;
-  }
-
-  .social a
-  {
-  text-decoration: none;
-  }
-
-  .linkedin-logo
-  {
-    width: 50px;
-  }
-
-  .github-logo
-  {
-    width: 50px;
-  }
-
-  .instagram-logo
-  {
-    width: 50px;
-  }
-
-}
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Case Study | {Cloud Kitchen}</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="css/normalize.css">
+      <link rel="stylesheet" type="text/css" href="css/style2.css">
+      <script src="portfolio.js"></script>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164209516-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-164209516-1');
+      </script>
+   </head>
+   <body>
+      <div class="project-container">
+        <header class="nav-bar">
+          <!--logo-->
+          <div class="logo">
+          <a href="index.html">
+            <img src="images/ef-logo.svg" class="ef-logo">
+          </a>
+          </div>
+          <!--menus-->
+          <!--mobile-menu-->
+          <div id="myNav" class="overlay">
+                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                 <div class="overlay-content">
+                   <a href="index.html">projects</a>
+                   <a href="about.html">about</a>
+                   <a href="ef.resume.pdf" target="_blank">resume</a>
+                 </div>
+               </div>
+               <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="images/menu.svg" class="mobile-menu1"></span>
+          <!--desktop-menu-->
+          <div class="desktop-nav">
+            <ul class="desktop-menu">
+              <li>
+                <a href="index.html">projects</a>
+              </li>
+              <li>
+                <a href="about.html">about</a>
+              </li>
+              <li>
+                <a href="ef.resume.pdf" target="_blank">resume</a>
+              </li>
+            </ul>
+          </div>
+          </header>
+         <!--Case Study Hero-->
+         <section class="project-hero">
+            <div class="hero-title">
+               <h1>Cloud Kitchen</h1>
+            </div>
+            <div class="project-hero-image">
+               <img src="images/cloud-kitchen-preview.svg" class="cloud-kitchen-landing-page">
+            </div>
+            <div class="button1">
+            <button class="button1-1" onclick="location.href='https://evanfeliciano476081.invisionapp.com/public/share/N813FQ5A6H'" target="_blank">View Prototype</a>
+            </div>
+         </section>
+         </div>
+         <!--Case Study Content-->
+         <section class="project-content">
+            <!--Case Study Overview-->
+            <div class="overview">
+               <h2>Project Overview</h2>
+               <p>Since the beginning of time, sharing meals, cooking, and eating good food have brought people together in a unique way. Since then, different advances like fire, electricity, and the internet have continually revolutionized the way we approach eating and cooking, and also how we share those experiences with others. Cloud Kitchen is bringing together those old traditions with the newest advances in cloud technology to create a modern platform for users to experience food in new ways. Cloud Kitchen is a platform that allows users to create, collaborate and explore different types of food content, like recipes, diets, meal-plans, cooking techniques, and much more. Users can personalize their experience on the platform, as well as share their favorite content with friends, family, and social media.
+               </p>
+            </div>
+            <div class="overview-deliverables">
+            <div class="overview2">
+               <h3>Role</h3>
+               <p>Lead UX/UI Designer</p>
+               <h3>Toolkit</h3>
+               <p>Figma, Sketch, inVision, Typeform, UsabilityHub, Draw.io</p>
+               <h3>Timeline</h3>
+               <p>Jan - Mar 2020</p>
+            </div>
+            <!--Case Study Deliverables-->
+            <div class="deliverables">
+               <h2>Deliverables</h2>
+               <ul>
+                  <li>User Research</li>
+                  <li>User Personas</li>
+                  <li>Competitive Analysis</li>
+                  <li>User Stories</li>
+                  <li>User Flows</li>
+                  <li>Sitemap</li>
+                  <li>Wireframes</li>
+                  <li>Usability Tests</li>
+                  <li>Preference Tests</li>
+                  <li>Hi-fi Mockups</li>
+                  <li>Mobile Prototype</li>
+                  <li>Desktop Prototype</li>
+               </ul>
+            </div>
+          </div>
+            <!--Case Study Research and Discovery-->
+            <div class="research-discovery">
+               <h2>Research and Discovery</h2>
+               <p>The first step of every successful design, always begins with research. I conducted to a survey to collect data on user’s behavior and needs regarding cloud technology, cooking and eating, and social habits, and to ensure that users were interested in using food-first product. Analyzing this data allowed me to draw out a few key takeaways: First, users are used to a high level of personalization and are very frustrated with lack of organizational features from existing products. Second, over 87% of users find the majority of their recipes online, but have no organized method of storing, saving, and sorting these recipes. Lastly, 90% users expressed interest in exploring, downloading and sharing other people’s recipes and food content in addition to being able to create their own.
+               </p>
+               <figure class="survery-stats">
+                  <img src="images/survey-stats.svg" class="survey-stats1" style="width:300px;height:400px;">
+                  <img src="images/survey-stats-desktop.svg" class="survey-stats2">
+               </figure>
+               <p>With the information from this survey, I built 2 user personas that detailed what the target audiences would look like. The first was a younger group, interested in trying new foods and travelling to places, and posting about everything along the way. The second group was a bit older, less used to cloud tech, but more affluent and much used to cooking most meals at home.
+               </p>
+               <div class="button2">
+               <button class="button2-1" onclick="location.href='cloud-kitchen-user-personas.pdf'" target="_blank">View Personas</a>
+                </div>
+            </div>
+            <!--Case Study Competitive Analysis-->
+            <div class="competitive-analysis">
+               <h2>Competitive Analysis</h2>
+               <p>With other huge competitors in the cloud space, the food focus would be a sure way to establish our own postition amongst some of the most well-established players. With that being said, there’s still a lot we can takeaway from seeing what others are already doing well and where they could improve. Google Drive is probably the most common cloud tool, and offers a ton of awesome creative tools for individuals and bootstrapped businesses to choose from. However, their organization tools are very minimal, and often leave users with a cluttered and confusing interface. iCloud plays off their iOS theme which gives it a creative feel and keeps things very organized, unfortunately, most of these tools are kept locked behind a paywall. Dropbox feels the most formal and secure with it’s simple design. And while organizational tools could be improved upon, they offer users the choice to use their native machine’s storage method, which eases most of the burden when it comes to clean storage and easy access.
+               </p>
+               <h4>Google Drive</h4>
+               <img src="images/google-preview.png" class="google-preview">
+               <h4>iCloud</h4>
+               <img src="images/icloud-preview.png" class="icloud-preview">
+               <h4>Dropbox</h4>
+               <img src="images/dropbox-preview.png" class="dropbox-preview">
+            </div>
+            <!--Case Study Information Architecture-->
+            <div class="information-architecture">
+               <h2>Information Architecture</h2>
+               <p>Next I created user stories to nail down exactly what tasks users would need to be able to complete in order to meet all their needs. Priorotiziation allowed me to focus on the most important tasks first and come back to secondary needs afterwards.
+               </p>
+               <img src="images/user-stories.svg" class="user-stories">
+               <p>Then I created user flos, basically a blueprint for the actual functionality of the design. Both the stories and flows were used as references to guide the later stages of design, with usability and solving user problems, as the main goal of the platform.
+               </p>
+               <div class="button2">
+               <button class="button2-1" onclick="location.href='cloud-kitchen-user-flows.pdf'">View User Flows</a>
+             </div>
+            </div>
+            <!--Case Study Wireframes-->
+            <div class="wireframes">
+               <h2>Wireframes</h2>
+               <p>With a clear idea of what and how the platform would work, I began skecthing out ideas of what the design could actually look like. Sketching proved to be a great way to save time, as uninspiring interfaces and layouts could easily be scrapped, improved, or tweaked before moving on to create digital wireframes.
+               </p>
+               <div class="sketches">
+               <img src="images/wireframe-sketch1.svg" class="sketch1">
+               <img src="images/wireframe-sketch2.svg" class="sketch2">
+             </div>
+               <p>After many interations, I landed on the designs pictured aboce and created digital mockups that would be used for initial user testing before moving on to high fidelty mockups pictured below.
+               </p>
+               <h4>My Profile</h4>
+               <img src="images/profile-wireframe.png" class="wireframe1">
+               <h4>Explore Page</h4>
+               <img src="images/explore-wireframe.png" class="wireframe2">
+               <h4>Content View</h4>
+               <img src="images/content-wireframe.png" class="wireframe3">
+               <h4>Create Tool</h4>
+               <img src="images/create-wireframe.png" class="wireframe4">
+               <div class="button3">
+               <button class="button3-1" onclick="location.href='https://drive.google.com/drive/folders/19JZDZmKuZljJSpHGABg-VGDCCYSzfSGb?usp=sharing'">View Wireframes</a>
+             </div>
+            </div>
+            <!--Case Study Branding-->
+            <div class="branding">
+               <h2>Branding</h2>
+               <p>After fleshing out the blueprints to platform, getting feedback from the users, and adjusting the design, the next step was to add some life and branding into the wireframes. I love the name Cloud Kitchen because it’s very simple and speaks to exactly what the functionality of the platform is.
+               </p>
+               <img src="images/logos.svg" class="cloud-kitchen-logos">
+               <p>For typography I chose Poppins for the main font, and Fira Sans for the secondy font. Both are modern, but Poppins is bit more stylish and and inspiring for logos and call-to-actions, while Fira Sans is safe and easy to read in larger bodies of text. The logo itself, reiterates the simplicity of the name as utensils over a cloud, with other color and text versions for different backgrounds and devices.
+               </p>
+               <img src="images/typography.svg" class="cloud-kitchen-type">
+               <p>For colors, I went with a bold, pantone red as the main brand color because a majority of the content would end up being user generated, and the red still cuts through well. I also added some blacks, grays, and whites, as well as comforting blue to contrast when red might feel a little invasive.
+               </p>
+               <img src="images/colors.svg" class="cloud-kitchen-colors">
+            </div>
+            <!--Case Study Final Design-->
+            <div class="final-design">
+               <h2>Final Design</h2>
+               <p>Before sending everything off to developers for production, I needed to again test my design with real users to ensure the functionality and aesthetics of the platform were not hindered with additions of colors, branding, etc. With UsabilitHub, I AB tested slightly different variations of the same design in controlled environment to see what exactly users prereffered. After collecting this data, and implementing the final changes, here are the final designs I ended with.
+               </p>
+               <h4>Explore Page</h4>
+               <img src="images/explore-final.svg" class="explore-final">
+               <h4>Interests Page</h4>
+               <img src="images/interests-final.svg" class="interests-final">
+               <h4>MyKitchen Page</h4>
+               <img src="images/mykitchen-final.svg" class="mykitchen-final">
+               <h5>Mobile Designs</h5>
+               <img src="images/mobile-design-preview.svg" class="mobile-preview-final">
+               <div class="button2">
+               <button class="button2-1" onclick="location.href='https://evanfeliciano476081.invisionapp.com/public/share/N813FQ5A6H'">View Prototype</a>
+             </div>
+            </div>
+            <!--Case Study Conclusion-->
+            <div class="conclusion">
+               <h2>Conlusion</h2>
+               <p>At the end of day, I created a design that allows users to create, collaborate, and explore food content in a brand new, exciting way. I identified a target audience and niche sector that would allow the product to enter the market successfully amongst some of the biggest competitors, while still providing users with a delightfully simple, and intuitive user experience.
+               </p>
+            </div>
+         </section>
+         <!--End of Case Study-->
+         <footer>
+           <div class="logo2">
+           <a href="index.html">
+             <img src="images/ef-logo.svg" class="ef-logo2">
+           </a>
+           </div>
+            <h1>Like what I did with this project?<br><br>Find out how I can apply these concepts to solve your users’ problems together!
+            </h1>
+            <div class="button6">
+            <button class="button6-1" onclick="mailto.href='evan.feliciano96@gmail.com'" id="contact">Get in touch</button>
+          </div>
+          <p>a few other places to find me</p>
+          <ul class="social">
+            <div class="table">
+            <li>
+              <a href="https://www.linkedin.com/in/evan-feliciano/">
+                <img src=images/linkedin-logo.svg class="linkedin-logo">
+              </a>
+              </li>
+                <li>
+                  <a href="https://github.com/evan-feliciano">
+                    <img src=images/github-logo.svg class="github-logo">
+                  </a>
+                  </li>
+                    <li>
+                      <a href="https://www.instagram.com/evan.feliciano.design/">
+                        <img src=images/instagram-logo.svg class="instagram-logo">
+                      </a>
+                      </li>
+                    </div>
+              </ul>
+         </footer>
+   </body>
+</html>
