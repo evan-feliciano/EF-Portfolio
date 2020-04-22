@@ -61,7 +61,7 @@ header {
 }
 
 .ef-logo {
-  height: 40px;
+  height: 50px;
 }
 
 .desktop-menu {
@@ -277,7 +277,7 @@ footer h1 {
 
 footer p {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 60px;
   font-size: 2.2rem;
   font-weight: normal;
 }
@@ -619,6 +619,16 @@ text-decoration: none;
     max-height: 35px;
   }
 
+
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }
 
   .button1 {
@@ -633,6 +643,7 @@ text-decoration: none;
   /*body {
     background-image: url("paper.gif");
   }*/
+
 
   html {
     background: url("../Images/mobile-background.svg") no-repeat center center fixed;
@@ -734,10 +745,11 @@ text-decoration: none;
     display: none;
   }
 
-  .mobile-nav {
+  .mobile-menu1 {
     position: absolute;
     right: 15px;
     margin: 10px;
+    height: 27.5px;
   }
 
   .hamburger-icon {
@@ -827,7 +839,8 @@ text-decoration: none;
   top: 0;
   left: 0;
   background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
+  background-color: #EEF3FE;
+  opacity: 0.975;
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -844,9 +857,10 @@ text-decoration: none;
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #818181;
+  color: #22181C;
   display: block;
   transition: 0.3s;
+  padding-bottom: 20px;
 }
 
 .overlay a:hover, .overlay a:focus {
@@ -868,4 +882,3 @@ text-decoration: none;
   right: 35px;
   }
 }
-
