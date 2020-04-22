@@ -5,6 +5,16 @@
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="stylesheet" type="text/css" href="css/normalize.css">
      <link rel="stylesheet" type="text/css" href="css/style.css">
+     <script src="portfolio.js"></script>
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164209516-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-164209516-1');
+      </script>
    </head>
    <body>
      <!--nav-header-->
@@ -17,9 +27,17 @@
        </a>
        </div>
        <!--menus-->
-       <div class="mobile-nav">
-         <img src="images/nav-menu.png" class="hamburger-icon">
-       </div>
+       <!--mobile-menu-->
+       <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="overlay-content">
+                <a href="index.html">projects</a>
+                <a href="about.html">about</a>
+                <a href="ef.resume.pdf" target="_blank">resume</a>
+              </div>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="images/menu.svg" class="mobile-menu1"></span>
+       <!--desktop-menu-->
        <div class="desktop-nav">
          <ul class="desktop-menu">
            <li>
