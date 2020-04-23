@@ -239,6 +239,7 @@ footer {
 footer h1 {
   font-weight: 500;
   letter-spacing: .1rem;
+  padding-bottom: 100px;
 }
 
 .button5 {
@@ -255,9 +256,30 @@ footer h1 {
 }
 
 .button4 {
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: .25rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #EEF3FE;
+  border-color: #22181C;
+  border-radius: 30px;
+  border-width: 2px;
+  border-style: solid;
+  background-color: #22181C;
+  width: 250px;
+  height: 55px;
+  text-decoration: none;
+}
+
+.button4 a {
+  padding-top: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  color: #EEF3FE;
 }
 
 .button4-1 {
@@ -646,7 +668,7 @@ text-decoration: none;
 
 
   html {
-    background: url("../images/mobile-background.png") no-repeat center center;
+    background: url("../Images/mobile-background.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -737,7 +759,7 @@ text-decoration: none;
   }*/
 
   html {
-    background: url("../images/mobile-background.png") no-repeat center center;
+    background: url("../Images/mobile-background.svg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
