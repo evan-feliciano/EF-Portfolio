@@ -646,7 +646,7 @@ text-decoration: none;
 
 
   html {
-    background: url("../Images/mobile-background.svg") no-repeat center center;
+    background: url("../images/mobile-background.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -722,7 +722,7 @@ text-decoration: none;
   }
 
   footer {
-    background: url("../Images/mobile-footer.svg") no-repeat center center;
+    background: url("../Images/mobile-footer.svg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -737,7 +737,7 @@ text-decoration: none;
   }*/
 
   html {
-    background: url("../images/mobile-background.png") no-repeat center center fixed;
+    background: url("../images/mobile-background.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
