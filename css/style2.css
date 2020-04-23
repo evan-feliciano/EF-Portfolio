@@ -739,6 +739,7 @@
   footer h1 {
     font-weight: 500;
     letter-spacing: .1rem;
+    padding-bottom: 100px;
   }
 
   .button5 {
@@ -755,9 +756,20 @@
   }
 
   .button6 {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: .15rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #EEF3FE;
+    border-color: #22181C;
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #22181C;
+    width: 250px;
+    height: 55px;
   }
 
   .button6-1 {
@@ -773,6 +785,15 @@
     margin: 20px 0;
     width: 250px;
     height: 55px;
+  }
+
+  .button6 a {
+    padding-top: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: #EEF3FE;
   }
 
   footer p {
