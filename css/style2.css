@@ -1535,7 +1535,7 @@
 @media screen and (max-width: 600px) {
 
   html {
-    background: url("../images/mobile-background.png") no-repeat center center fixed;
+    background: url("../images/mobile-background.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
