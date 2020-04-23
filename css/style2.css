@@ -276,6 +276,10 @@
     font-size: 1.8rem;
   }
 
+  .companion-competitive-mobile {
+    display: none;
+  }
+
 
   .google-preview {
     display: block;
@@ -324,6 +328,13 @@
     margin-right: auto;
     height: 500px;
     box-shadow: 5px 5px 15px grey;
+  }
+
+  .companion-competition-desktop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
   }
 
   .information-architecture {
@@ -1745,6 +1756,10 @@
     display: flex;
     justify-content: center;
     padding-top: 20px;
+  }
+
+  .companion-competition-desktop {
+    display: none;
   }
 
 
