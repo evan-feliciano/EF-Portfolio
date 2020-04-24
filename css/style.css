@@ -398,6 +398,7 @@ text-decoration: none;
     height: 600px;
   }
 
+
   .button1-2 {
     display: flex;
     justify-content: center;
@@ -740,7 +741,13 @@ text-decoration: none;
 
   .cloud-kitchen-preview {
     height: 550px;
-  }.about-me-hero h1 {
+  }
+
+  .companion-app-preview {
+    height: 400px;
+  }
+
+  .about-me-hero h1 {
     display: flex;
     justify-content: center;
     font-size: 3rem;
