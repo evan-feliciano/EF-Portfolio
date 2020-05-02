@@ -854,7 +854,7 @@
 
 
   html {
-    background: url("../images/tablet-background.png") no-repeat center center;
+    background: url("../images/tablet-background.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -929,6 +929,10 @@
 
   .companion-app-preview-desktop {
     display: none;
+  }
+
+  .companion-app-preview {
+    height: 750px;
   }
 
   .button1 {
@@ -1024,6 +1028,10 @@
     padding-top: 50px;
     padding-bottom: 50px;
     height: 120px;
+  }
+
+  .research-discovery {
+    padding-bottom: 50px;
   }
 
   .research-discovery h2 {
@@ -1133,7 +1141,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 350px;
+    height: 500px;
     box-shadow: 5px 5px 15px grey;
   }
 
@@ -1141,7 +1149,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 350px;
+    height: 500px;
     box-shadow: 5px 5px 15px grey;
   }
 
@@ -1149,12 +1157,16 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 350px;
+    height: 500px;
     box-shadow: 5px 5px 15px grey;
   }
 
-  .information-architecture {
+  .companion-competition-desktop {
+    display: none;
+  }
 
+  .information-architecture {
+    padding-bottom: 50px;
   }
 
   .information-architecture h2 {
@@ -1162,7 +1174,7 @@
     letter-spacing: .05rem;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 100px;
+    padding-top: 50px;
     font-size: 2.4rem;
     line-height: 1.6;
   }
@@ -1222,22 +1234,33 @@
     justify-content: center;
   }
 
-  .sketch1 {
+  .companion-sketch1 {
     display: block;
     margin-left: auto;
-    margin-right: 25px;;
-    height: 300px;
+    margin-right: auto;
+    height: 600px;
+    padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 200px;
+  }
+
+  .sketch1 {
+    display: block;
+    margin-left: 0;
+    margin-right: 25px;;
+    height: 320px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
   }
 
   .sketch2 {
     display: block;
     margin-left: 25px;
-    margin-right: auto;
-    height: 300px;
+    margin-right: 0;
+    height: 320px;
     padding-bottom: 50px;
-    padding-right: 200px;
+    padding-right: 50px;
+    padding-top: 50px;
   }
 
   .wireframe1 {
@@ -1270,6 +1293,47 @@
     margin-right: auto;
     height: 400px;
     box-shadow: 5px 5px 15px grey;
+  }
+
+  .companion-wireframe1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    box-shadow: 5px 5px 15px grey;
+  }
+
+  .companion-wireframe2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    box-shadow: 5px 5px 15px grey;
+  }
+
+  .companion-wireframe3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    box-shadow: 5px 5px 15px grey;
+  }
+
+  .companion-wireframe4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    box-shadow: 5px 5px 15px grey;
+  }
+
+
+  .companion-desktop-preview {
+    display: none;
+  }
+
+  .companion-mobile-preview {
+    padding-bottom: 100px;
   }
 
   .button3 {
@@ -1362,6 +1426,16 @@
     line-height: 1.6;
   }
 
+  .final-design1 h2 {
+    text-align: left;
+    letter-spacing: .05rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    font-size: 2.4rem;
+    line-height: 1.6;
+  }
+
   .final-design p {
     text-align: left;
     letter-spacing: .05rem;
@@ -1372,7 +1446,24 @@
     line-height: 1.6;
   }
 
+  .final-design1 p {
+    text-align: left;
+    letter-spacing: .05rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 0;
+    font-size: 1.4rem;
+    line-height: 1.6;
+  }
+
   .final-design h4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 1.8rem;
+  }
+
+  .final-design1 h5 {
     display: flex;
     justify-content: center;
     padding-top: 50px;
@@ -1418,6 +1509,22 @@
     height: 400px;
   }
 
+  .companion-final {
+    display: none;
+  }
+
+  .companion-final-dark {
+    display: none;
+  }
+
+
+  .companion-final-mobile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
 
   .conclusion h2 {
     text-align: left;
@@ -1434,13 +1541,13 @@
     letter-spacing: .05rem;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 0;
+    padding-bottom: 100px;
     font-size: 1.4rem;
     line-height: 1.6;
   }
 
   footer {
-    background: url("../images/tablet-background.png") no-repeat center center fixed;
+    background: url("../images/tablet-background.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1459,6 +1566,8 @@
   footer h1 {
     font-weight: 500;
     letter-spacing: .1rem;
+    padding-bottom: 100px;
+    line-height: 1.5;
   }
 
   .button5 {
@@ -1475,14 +1584,11 @@
   }
 
   .button6 {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-  }
-
-  .button6-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     letter-spacing: .25rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 600;
     color: #EEF3FE;
     border-color: #22181C;
@@ -1490,9 +1596,18 @@
     border-width: 2px;
     border-style: solid;
     background-color: #22181C;
-    margin: 20px 0;
     width: 250px;
     height: 55px;
+    text-decoration: none;
+  }
+
+  .button6 a {
+    padding-top: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: #EEF3FE;
   }
 
   footer p {
@@ -1624,6 +1739,12 @@
 
   .companion-app-preview-desktop {
     display: none;
+  }
+
+  .companion-app-preview {
+    display: flex;
+    justify-content: center;
+    height: 400px;
   }
 
   .button1 {
@@ -2238,6 +2359,8 @@
     font-weight: 500;
     letter-spacing: .1rem;
     font-size: 1.4rem;
+    padding-bottom: 80px;
+    line-height: 1.5;
   }
 
   .button5 {
@@ -2254,14 +2377,11 @@
   }
 
   .button6 {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-  }
-
-  .button6-1 {
-    letter-spacing: .25rem;
-    font-size: 1.2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: .15rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #EEF3FE;
     border-color: #22181C;
@@ -2269,9 +2389,18 @@
     border-width: 2px;
     border-style: solid;
     background-color: #22181C;
-    margin: 20px 0;
-    width: 250px;
-    height: 55px;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+  }
+
+  .button6 a {
+    padding-top: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: #EEF3FE;
   }
 
   footer p {
