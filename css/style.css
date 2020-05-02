@@ -8,7 +8,7 @@ html {
 }
 
 body {
- font-family: montserrat, work-sans, varela-round;
+ font-family: montserrat;
  color: #22181C;
  font-size: 1.6rem;
  font-weight: 300;
@@ -282,6 +282,7 @@ footer h1 {
   color: #EEF3FE;
 }
 
+
 .button4-1 {
   letter-spacing: .25rem;
   font-size: 2rem;
@@ -339,8 +340,6 @@ text-decoration: none;
 }
 
 
-
-}
 
 @media screen and (min-width: 1025px) {
 
@@ -470,7 +469,7 @@ text-decoration: none;
   }
 
   .capstone-preview {
-    height: 600px;
+    height: 500px;
   }
 
   .button2-2 {
@@ -987,6 +986,10 @@ text-decoration: none;
     background-size: cover;
   }
 
+  .footer p {
+    font-size: 1.2rem;
+  }
+
 }
 
 .overlay {
@@ -1043,7 +1046,6 @@ text-decoration: none;
 
 @media screen and (min-width: 500px) and (max-width: 1024px){
 
-
   .project-info h2 {
     font-size: 4.4rem;
     padding-top: 100px;
@@ -1052,3 +1054,4 @@ text-decoration: none;
   .project-info p {
     font-size: 2.4rem;
   }
+}
