@@ -21,8 +21,6 @@
     position: absolute;
     left: 5%;
     margin-left: -25px;
-    padding-top: 20px;
-    padding-right: 5px;
   }
 
   .ef-logo {
@@ -31,12 +29,13 @@
   }
 
   .desktop-menu {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     list-style: none;
     text-align: center;
     position: absolute;
     right: 15px;
     margin: 10px;
+    padding-top: 6px;
   }
 
   .desktop-menu li {
@@ -110,6 +109,7 @@
   }
 
   .button1-1 {
+    transition-duration: 0.4s;
     font-size: 1.4rem;
     font-weight: 500;
     color: #22181C;
@@ -123,6 +123,11 @@
     height: 60px;
     text-decoration: none;
     text-align: center;
+  }
+
+  .button1-1:hover {
+    background-color: #22181C;
+    color: #EEF3FE;
   }
 
   .overview {
@@ -156,12 +161,18 @@
     padding-right: 200px;
     padding-top: 50px;
     padding-bottom: 50px;
-    font-size: 1rem;
+    font-size: 1.4rem;
     line-height: 1.6;
+  }
+
+  .overview2 p {
+    margin-top: 0px;
   }
 
   .overview2 h3 {
     font-size: 2rem;
+    margin-top: 80px;
+    margin-bottom: 5px;
   }
 
   .deliverables {
@@ -170,8 +181,12 @@
     padding-right: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
-    font-size: 1rem;
+    font-size: 1.4rem;
     line-height: 1.6;
+  }
+
+  .deliverables h2 {
+    font-size: 2rem;
   }
 
   .deliverables ul {
@@ -229,6 +244,7 @@
   }
 
   .button2-1 {
+    transition-duration: 0.4s;
     font-size: 1.4rem;
     font-weight: 500;
     color: #22181C;
@@ -242,6 +258,11 @@
     height: 60px;
     text-decoration: none;
     text-align: center;
+  }
+
+  .button2-1:hover {
+    background-color: #22181C;
+    color: #EEF3FE;
   }
 
   .competitive-analysis {
@@ -520,6 +541,7 @@
   }
 
   .button3-1 {
+    transition-duration: 0.4s;
     font-size: 1.4rem;
     font-weight: 500;
     color: #22181C;
@@ -533,6 +555,11 @@
     height: 60px;
     text-decoration: none;
     text-align: center;
+  }
+
+  .button3-1:hover {
+    background-color: #22181C;
+    color: #EEF3FE;
   }
 
   .branding {
@@ -638,7 +665,7 @@
     display: flex;
     justify-content: center;
     padding-top: 50px;
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .explore-final {
@@ -669,7 +696,7 @@
     display: flex;
     justify-content: center;
     padding-top: 150px;
-    font-size: 2.4rem;
+    font-size: 2rem;
 
   }
   .final-design1 h5 {
@@ -739,7 +766,7 @@
   footer h1 {
     font-weight: 500;
     letter-spacing: .1rem;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
   }
 
   .button5 {
@@ -756,6 +783,7 @@
   }
 
   .button6 {
+    transition-duration: 0.4s;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -787,6 +815,12 @@
     height: 55px;
   }
 
+  .button6:hover {
+    border-color: #85FFC7;
+    background-color: #85FFC7;
+    color: #22181C;
+  }
+
   .button6 a {
     padding-top: 14px;
     display: block;
@@ -796,9 +830,13 @@
     color: #EEF3FE;
   }
 
+  .button6 a:hover {
+    color: #22181C;
+  }
+
   footer p {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 200px;
     font-size: 1.4rem;
     font-weight: normal;
   }
