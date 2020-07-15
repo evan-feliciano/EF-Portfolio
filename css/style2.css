@@ -388,7 +388,16 @@
     line-height: 1.6;
   }
 
-  .user-stories {
+  .user-stories1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .user-stories2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -876,7 +885,7 @@
     width: 50px;
   }
 
-  .github-logo
+  .dribbble-logo
   {
     width: 50px;
   }
@@ -1255,7 +1264,16 @@
     line-height: 1.6;
   }
 
-  .user-stories {
+  .user-stories1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 280px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .user-stories2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1712,7 +1730,7 @@
     width: 50px;
   }
 
-  .github-logo
+  .dribbble-logo
   {
     width: 50px;
   }
@@ -2538,7 +2556,7 @@
     width: 50px;
   }
 
-  .github-logo
+  .dribbble-logo
   {
     width: 50px;
   }
