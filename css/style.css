@@ -1086,7 +1086,7 @@ text-decoration: none;
   background-color: #EEF3FE;
   opacity: 0.975;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: .5s;
 }
 
 .overlay-content {
@@ -1103,8 +1103,8 @@ text-decoration: none;
   font-size: 36px;
   color: #22181C;
   display: block;
-  transition: 0.3s;
-  padding-bottom: 20px;
+  transition: .5s;
+  padding-bottom: 60px;
 }
 
 .overlay a:hover, .overlay a:focus {
