@@ -91,7 +91,7 @@
   .project-hero-image {
     display: flex;
     justify-content: center;
-    padding-bottom: 200px;
+    padding-bottom: 120px;
   }
 
   .cloud-kitchen-landing-page {
@@ -111,7 +111,7 @@
     justify-content: center;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 200px;
+    padding-bottom: 120px;
   }
 
   .button1-1 {
@@ -166,7 +166,7 @@
     padding-left: 300px;
     padding-right: 200px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 90px;
     font-size: 1.4rem;
     line-height: 1.6;
   }
@@ -177,7 +177,7 @@
 
   .overview2 h3 {
     font-size: 2rem;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 5px;
   }
 
@@ -193,6 +193,7 @@
 
   .deliverables h2 {
     font-size: 2rem;
+    margin-top: 50px;
   }
 
   .deliverables ul {
@@ -232,6 +233,14 @@
     padding-left: 300px;
     padding-right: 300px;
     padding-bottom: 0;
+    font-size: 1.4rem;
+    line-height: 1.6;
+  }
+
+  .p2 {
+    text-align: left;
+    letter-spacing: .05rem;
+    padding-bottom: 50px;
     font-size: 1.4rem;
     line-height: 1.6;
   }
@@ -307,6 +316,77 @@
     display: none;
   }
 
+  .companion-table {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+
+  tr:nth-child(1)
+  {
+    background-color: #F5F8FF;
+    color: black;
+  }
+  tr:nth-child(2)
+  {
+    background-color: #85FFC7;
+    color: black;
+  }
+  tr:nth-child(3)
+  {
+    background-color: #85FFC7;
+    color: black;
+  }
+  tr:nth-child(4)
+  {
+    background-color: #85FFC7;
+    color: black;
+  }
+  tr:nth-child(5)
+  {
+    background-color: #85FFC7;
+    color: black;
+  }
+  tr:nth-child(6)
+  {
+    background-color: #85FFC7;
+    color: black;
+  }
+  tr:nth-child(7)
+  {
+    background-color: #FFFBA0;
+    color: black;
+  }
+  tr:nth-child(8)
+  {
+    background-color: #FFFBA0;
+    color: black;
+  }
+  tr:nth-child(9)
+  {
+    background-color: #FFFBA0;
+    color: black;
+  }
+  tr:nth-child(10)
+  {
+    background-color: #FFFBA0;
+    color: black;
+  }
+  tr:nth-child(11)
+  {
+    background-color: #F9A0A0;
+    color: black;
+  }
 
   .google-preview {
     display: block;
@@ -626,6 +706,23 @@
     padding-top: 30px;
     padding-bottom: 100px;
     height: 300px;
+  }
+
+  .ab-darkmode {
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+  }
+
+  .ab-menu {
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    padding-bottom: 50px;
   }
 
   .final-design {
@@ -1179,6 +1276,78 @@
     line-height: 1.6;
   }
 
+  .companion-table {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+
+  tr:nth-child(1)
+  {
+    background-color: #F5F8FF;
+    color: black;
+  }
+  tr:nth-child(2)
+  {
+    background-color: #85FFC7;
+    color: black;
+  }
+  tr:nth-child(3)
+  {
+    background-color: #85FFC7;
+    color: black;
+  }
+  tr:nth-child(4)
+  {
+    background-color: #85FFC7;
+    color: black;
+  }
+  tr:nth-child(5)
+  {
+    background-color: #85FFC7;
+    color: black;
+  }
+  tr:nth-child(6)
+  {
+    background-color: #85FFC7;
+    color: black;
+  }
+  tr:nth-child(7)
+  {
+    background-color: #FFFBA0;
+    color: black;
+  }
+  tr:nth-child(8)
+  {
+    background-color: #FFFBA0;
+    color: black;
+  }
+  tr:nth-child(9)
+  {
+    background-color: #FFFBA0;
+    color: black;
+  }
+  tr:nth-child(10)
+  {
+    background-color: #FFFBA0;
+    color: black;
+  }
+  tr:nth-child(11)
+  {
+    background-color: #F9A0A0;
+    color: black;
+  }
+
   .competitive-analysis h4 {
     display: flex;
     justify-content: center;
@@ -1494,6 +1663,23 @@
     padding-top: 30px;
     padding-bottom: 100px;
     height: 300px;
+  }
+
+  .ab-darkmode {
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+  }
+
+  .ab-menu {
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    padding-bottom: 50px;
   }
 
   .final-design {
@@ -1948,6 +2134,14 @@
     line-height: 1.6;
   }
 
+  .p2 {
+    text-align: left;
+    letter-spacing: .05rem;
+    padding-bottom: 40px;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
   .survey-stats2 {
     display: none;
   }
@@ -1990,6 +2184,79 @@
     padding-top: 40px;
     font-size: 1.5rem;
     line-height: 1.6;
+  }
+
+  .companion-table {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 0.75rem;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+
+  tr:nth-child(1)
+  {
+    background-color: #F5F8FF;
+    color: black;
+  }
+  tr:nth-child(2)
+  {
+    background-color: #85FFC7;
+    color: black;
+  }
+  tr:nth-child(3)
+  {
+    background-color: #85FFC7;
+    color: black;
+  }
+  tr:nth-child(4)
+  {
+    background-color: #85FFC7;
+    color: black;
+  }
+  tr:nth-child(5)
+  {
+    background-color: #85FFC7;
+    color: black;
+  }
+  tr:nth-child(6)
+  {
+    background-color: #85FFC7;
+    color: black;
+  }
+  tr:nth-child(7)
+  {
+    background-color: #FFFBA0;
+    color: black;
+  }
+  tr:nth-child(8)
+  {
+    background-color: #FFFBA0;
+    color: black;
+  }
+  tr:nth-child(9)
+  {
+    background-color: #FFFBA0;
+    color: black;
+  }
+  tr:nth-child(10)
+  {
+    background-color: #FFFBA0;
+    color: black;
+  }
+  tr:nth-child(11)
+  {
+    background-color: #F9A0A0;
+    color: black;
   }
 
   .competitive-analysis p {
@@ -2318,6 +2585,23 @@
     height: 160px;
   }
 
+  .ab-darkmode {
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 240px;
+  }
+
+  .ab-menu {
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 240px;
+    padding-bottom: 50px;
+  }
+
   .final-design {
     background-color: #EEF3FE;
   }
@@ -2430,7 +2714,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 800px;
+    height: 2000px;
     }
 
   .conclusion h2 {
@@ -2577,7 +2861,7 @@
   left: 0;
   background-color: rgb(0,0,0);
   background-color: #EEF3FE;
-  opacity: 0.975;
+  opacity: 0.95;
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -2596,8 +2880,8 @@
   font-size: 36px;
   color: #22181C;
   display: block;
-  transition: 0.3s;
-  padding-bottom: 20px;
+  transition: 1s;
+  padding-bottom: 60px;
 }
 
 .overlay a:hover, .overlay a:focus {
