@@ -79,7 +79,7 @@
                <h3>Role</h3>
                <p>Lead UX/UI Designer</p>
                <h3>Toolkit</h3>
-               <p>Figma, Sketch, inVision,<br>Typeform, UsabilityHub, Draw.io</p>
+               <p>Figma, Sketch, inVision,<br>Typeform, UsabilityHub</p>
                <h3>Timeline</h3>
                <p>Mar - Apr 2020</p>
             </div>
@@ -87,28 +87,31 @@
             <div class="deliverables">
                <h2>Deliverables</h2>
                <ul>
-                  <li>User Research</li>
-                  <li>User Personas</li>
+                  <li>User Research/Personas</li>
                   <li>Competitive Analysis</li>
-                  <li>User Stories</li>
-                  <li>User Flows</li>
+                  <li>User Stories/Flows</li>
                   <li>Sitemap</li>
                   <li>Wireframes</li>
-                  <li>Usability Tests</li>
-                  <li>Preference Tests</li>
-                  <li>Hi-fi Mockups</li>
-                  <li>Mobile Prototype</li>
-                  <li>Desktop Prototype</li>
+                  <li>Usability/Preference Tests</li>
+                  <li>Low-fi/Hi-fi Mockups</li>
+                  <li>Mobile/Desktop Prototype</li>
                </ul>
             </div>
           </div>
             <!--Case Study Research and Discovery-->
             <div class="research-discovery">
                <h2>Research and Discovery</h2>
-               <p>The first step of every successful design, always begins with research. I conducted to a survey to collect data on user’s behavior and needs regarding pet ownership, feeding and training, and broader social habits around pets. Analyzing this data allowed me to draw out a few key takeaways: First, every single participant either currently had a pet or grew up with a pet, and 43% of participants had recently adopted a new pet within the past year. Second, only 6% of users were using any sort of technology to help maintain the health and wellbeing of their pet, but 87% answered they would be interested in a product that allowed them to do so. Fun stat: of the participants surveryed, cat owners were 2.5 times more likely to own more than one pet compared to dog and other pet owners<br><br>With the information from this survey, I built 2 user personas that detailed what the target audiences would look like. The first was a younger group, mostly single between 16 and 26, and very tech savvy. The second group was a bit older, mostly families with 1-2 children, a bit more affluent but still used to using tech.
+               <p>The first step of every successful design, always begins with research. I conducted to a survey to collect data on user’s behavior and needs regarding pet ownership, feeding and training, and broader social habits around pets. Analyzing this data allowed me to draw out a few key takeaways: First, every single participant either currently had a pet or grew up with a pet, and 43% of participants had recently adopted a new pet within the past year. Second, only 6% of users were using any sort of technology to help maintain the health and wellbeing of their pet, but 87% answered they would be interested in a product that allowed them to do so. Fun stat: of the participants surveryed, cat owners were 2.5 times more likely to own more than one pet compared to dog and other pet owners.
                </p>
                <div class="extra-padding1"></div>
-               <figure class="survery-stats">
+                 <figure class="survery-stats">
+                    <img src="images/survey-stats-mobile2.svg" class="survey-stats1" style="width:300px;height:400px;">
+                    <img src="images/survey-stats-desktop2.svg" class="survey-stats2">
+                 </figure>
+                 <div class="p2">
+                <p>With the information from this survey, I built 2 user personas that detailed what the target audiences would look like. The first was a younger group, mostly single between 16 and 26, and very tech savvy. The second group was a bit older, mostly families with 1-2 children, a bit more affluent but still used to using tech.
+                </p>
+              </div>
                  <!--survey images
                   <img src="images/survey-stats.svg" class="survey-stats1" style="width:300px;height:400px;">
                   <img src="images/survey-stats-desktop.svg" class="survey-stats2">
@@ -142,7 +145,65 @@
                <h2>Information Architecture</h2>
                <p>Next I created user stories to nail down exactly what tasks users would need to be able to complete in order to meet all their needs. Priorotiziation allowed me to focus on the most important tasks first and come back to secondary needs afterwards.
                </p>
-               <img src="images/companion-user-stories.png" class="user-stories2" alt="stories">
+               <div class="companion-table">
+               <table style="width:50%">
+                  <tr>
+                    <th>User Type</th>
+                    <th>Task</th>
+                    <th>Importance</th>
+                  </tr>
+                  <tr>
+                    <td>New user</td>
+                    <td>Create a pet profile</td>
+                    <td>High</td>
+                  </tr>
+                  <tr>
+                    <td>New user</td>
+                    <td>Log pet activity</td>
+                    <td>High</td>
+                  </tr>
+                  <tr>
+                    <td>New user</td>
+                    <td>Schedule Reminders</td>
+                    <td>High</td>
+                  </tr>
+                  <tr>
+                    <td>New user</td>
+                    <td>Edit Reminders</td>
+                    <td>High</td>
+                  </tr>
+                  <tr>
+                    <td>New user</td>
+                    <td>Track Pet Location</td>
+                    <td>High</td>
+                  </tr>
+                  <tr>
+                    <td>Returning user</td>
+                    <td>Upload pet documents</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Returning user</td>
+                    <td>Track pet activity over time</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Returning user</td>
+                    <td>Report a missing pet</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Returning user</td>
+                    <td>Add another pet profile</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Returning user</td>
+                    <td>Share reminders/activity</td>
+                    <td>Low</td>
+                  </tr>
+                </table>
+              </div>
                <p>Then I created user flows, basically a blueprint for the actual functionality of the design. Both the stories and flows were used as references to guide the later stages of design, with usability and solving user problems, as the main goal of the platform.
                </p>
                <!--user flows
@@ -199,9 +260,12 @@
             -->
             <!--Case Study Final Design-->
             <div class="final-design1">
-               <h2>Final Design</h2>
-               <p>Before sending everything off to developers for production, I needed to again test my design with real users to ensure the functionality and aesthetics of the platform were not hindered with additions of colors, branding, etc. With UsabilitHub, I AB tested slightly different variations of the same design in controlled environment to see what exactly users prereffered. After collecting this data, and implementing the final changes, here are the final designs I ended with.
+               <h2>Usability Testing & Final Designs</h2>
+               <p>Before sending everything off to developers for production, I needed to again test my design with real users to ensure the functionality and aesthetics of the platform were not hindered with additions of colors, branding, etc. With UsabilityHub, I AB tested slightly different variations of the same design in controlled environment to see what exactly users prereffered. Pictured directly below are some of the changes I made. For example, users preferred the hamburger menu as opposed to the icon-based nav menu at the bottom of the page, as they felt it was more clear, and made the app easier to navigate. Next was an AB test of the colors for dark mode. Users felt that the first design was inconsitent with the day mode, and that the second design was much easier to read. After collecting more data like this from remote and in-person testing, I went back and implemented these changes, and ended with the final designs pictured below the AB tests.
                </p>
+               <h5>Usability Tests</h5>
+               <img src="images/ab-menu.png" class="ab-menu" alt="ab-menu">
+               <img src="images/ab-darkmode.png" class="ab-darkmode" alt="ab-dark">
                <!--final-design
                <h4>Explore Page</h4>
                <img src="images/explore-final.svg" class="explore-final">
@@ -210,7 +274,7 @@
                <h4>MyKitchen Page</h4>
                <img src="images/mykitchen-final.svg" class="mykitchen-final">
              -->
-               <h5>Mobile Designs</h5>
+               <h5>Final Designs</h5>
                <img src="images/companion-final.svg" class="companion-final" alt="final">
                <img src="images/companion-final-mobile.png" class="companion-final-mobile" alt="final1">
                <div class="dark-mode"><h5>Dark Mode</h5></div>
